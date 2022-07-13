@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+#coming-soon{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    color: hsl(0, 36%, 70%);
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .details {
+        margin-top: 100px;
+    }
+
+    /* .text-center.text-md-start.details.px-md-5::before{
+        content: url("./images/hero-mobile.jpg");
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+
+        
+
+    } */
+
+}
+
+::placeholder
+{
+    color: hsl(0, 36%, 70%);
+    
+}
+
+@media(min-width:1250px) {
+    #button {
+        width: 110px;
+        
+    }
+
+    #icon {
+        font-size: larger;
+    }
+}
+
+@media(max-width:1249px) {
+    #button {
+        width: 80px;
+    }
+}
+
+@media(max-width:497px) {
+    html {
+        width: 500px;
+    }
+
+}
+
+
+
+
+
+input {
+    position: relative;
+
+}
+
+button {
+    right: 0%;
+}
+
+.details::before {
+    position: relative;
+    width: 100vh;
+}
+
+
+.visible{
+    visibility: visible;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+@media(max-width:767px){
+    #inputBox{
+        margin-bottom: 100px;
+    }
+}
+
+@media(min-width:768px){
+    #inputBox{
+        margin-bottom: 0px;
+    }
+}
